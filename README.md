@@ -42,8 +42,9 @@ docker build -t ocp-subnet-gen .
 docker run -p 8080:80 ocp-subnet-gen
 ```
 
-```bash
+
 ## Project Structure
+```bash
 ocp-subnet-gen/
 ├── node_modules/
 ├── public/
