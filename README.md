@@ -43,3 +43,31 @@ docker run -p 8080:80 ocp-subnet-gen
 ```
 
 ## Project Structure
+ocp-subnet-gen/
+├── node_modules/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── ConfigurationForm.jsx
+│   │   ├── CalculationBreakdown.jsx
+│   │   ├── ResultsTable.jsx
+│   │   └── YamlOutput.jsx
+│   ├── utils/
+│   │   └── subnetLogic.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── Dockerfile
+├── eslint.config.js
+├── index.html
+├── nginx.conf
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
