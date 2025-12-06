@@ -42,6 +42,7 @@ docker build -t ocp-subnet-gen .
 docker run -p 8080:80 ocp-subnet-gen
 ```
 
+```bash
 ## Project Structure
 ocp-subnet-gen/
 ├── node_modules/
@@ -71,3 +72,4 @@ ocp-subnet-gen/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
+```
